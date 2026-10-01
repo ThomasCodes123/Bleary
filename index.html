@@ -87,7 +87,7 @@
     <header class="mx-auto max-w-5xl px-6 py-6 flex items-center justify-between">
       <span class="text-xl font-display tracking-tight text-ink">Bleary</span>
       <div class="flex items-center gap-4">
-        <a href="#waitlist" data-i18n="nav_cta" class="text-sm font-medium text-inkmuted hover:text-ink transition-colors">Lista de espera →</a>
+        <a href="https://apps.apple.com/app/id6785338448" data-i18n="nav_cta" class="text-sm font-medium text-inkmuted hover:text-ink transition-colors">Descargar →</a>
         <button id="langToggle" type="button" aria-label="Change language" class="text-sm font-medium text-lav-200 hover:text-lav-100 transition-colors border border-hair rounded-full px-3 py-1">EN</button>
       </div>
     </header>
@@ -97,7 +97,7 @@
       <section class="pt-12 pb-16 sm:pt-16 sm:pb-20 grid lg:grid-cols-[1.15fr_0.85fr] gap-12 items-center">
         <div class="text-center lg:text-left">
           <span data-i18n="hero_badge" class="inline-block mb-6 rounded-full glass px-4 py-1.5 text-xs font-medium text-lav-200">
-            App en desarrollo · iPhone
+            Ya en la App Store · iPhone
           </span>
 
           <h1 data-i18n="hero_title" class="font-display text-ink leading-[1.04] tracking-tight text-4xl sm:text-5xl md:text-6xl">
@@ -109,8 +109,8 @@
           </p>
 
           <div class="mt-8 flex flex-col sm:flex-row items-center lg:items-start gap-3 sm:justify-start justify-center">
-            <a href="#waitlist" data-i18n="cta_join" class="w-full sm:w-auto text-center rounded-2xl bg-lav-200 hover:bg-lav-100 transition-colors px-7 py-3.5 text-base font-semibold text-lav-900 shadow-lg shadow-lav-400/20">
-              Unirme a la lista de espera
+            <a href="https://apps.apple.com/app/id6785338448" data-i18n="cta_join" class="w-full sm:w-auto text-center rounded-2xl bg-lav-200 hover:bg-lav-100 transition-colors px-7 py-3.5 text-base font-semibold text-lav-900 shadow-lg shadow-lav-400/20">
+              Descargar en la App Store
             </a>
             <a href="#features" data-i18n="cta_how" class="w-full sm:w-auto text-center rounded-2xl glass hover:border-lav-200/40 transition-colors px-7 py-3.5 text-base font-medium text-ink">
               Ver cómo funciona
@@ -196,47 +196,22 @@
         </div>
       </section>
 
-      <!-- Captura de Email -->
-      <section id="waitlist" class="pb-24 scroll-mt-24">
+      <!-- Descarga -->
+      <section id="download" class="pb-24 scroll-mt-24">
         <div class="glass rounded-[28px] p-8 sm:p-12 grid md:grid-cols-[0.8fr_1fr] gap-8 items-center">
           <!-- Mascota cariñosa -->
           <div class="text-center md:text-left">
             <img src="assets/mascot-loved.png" alt="" class="w-36 mx-auto md:mx-0 mb-4" />
-            <h2 data-i18n="wl_title" class="font-display text-3xl text-ink leading-tight">Entra a la beta</h2>
-            <p data-i18n-html="wl_desc" class="mt-2 text-sm text-inkmuted leading-relaxed">
-              Plazas limitadas. Los beta testers reciben <span class="text-lav-200 font-medium">2 meses gratis</span> de la versión Pro.
+            <h2 data-i18n="dl_title" class="font-display text-3xl text-ink leading-tight">Pruébala gratis</h2>
+            <p data-i18n="dl_desc" class="mt-2 text-sm text-inkmuted leading-relaxed">
+              7 días gratis para empezar. Tus datos se quedan en tu iPhone y en tu iCloud.
             </p>
           </div>
 
-          <form action="https://formspree.io/f/mlgylzry" method="POST" class="space-y-3.5">
-            <!-- Honeypot anti-spam: oculto para humanos; si un bot lo rellena,
-                 Formspree descarta el envío. No tocar el name "_gotcha". -->
-            <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true" class="hidden" />
-            <div>
-              <label for="name" class="sr-only" data-i18n="lbl_name">Nombre</label>
-              <input
-                id="name" name="name" type="text" required
-                data-i18n-ph="ph_name" placeholder="Tu nombre"
-                class="w-full rounded-xl bg-bg/60 border border-hair px-4 py-3.5 text-ink placeholder-inkmuted/70 focus:border-lav-200 focus:outline-none focus:ring-2 focus:ring-lav-200/30 transition"
-              />
-            </div>
-            <div>
-              <label for="email" class="sr-only" data-i18n="lbl_email">Email</label>
-              <input
-                id="email" name="email" type="email" required
-                data-i18n-ph="ph_email" placeholder="tu@email.com"
-                class="w-full rounded-xl bg-bg/60 border border-hair px-4 py-3.5 text-ink placeholder-inkmuted/70 focus:border-lav-200 focus:outline-none focus:ring-2 focus:ring-lav-200/30 transition"
-              />
-            </div>
-            <button
-              type="submit"
-              data-i18n="cta_join"
-              class="w-full rounded-xl bg-lav-200 hover:bg-lav-100 transition-colors px-6 py-3.5 text-base font-semibold text-lav-900 shadow-lg shadow-lav-400/20"
-            >
-              Unirme a la lista de espera
-            </button>
-            <p data-i18n="wl_note" class="text-center text-xs text-inkmuted/80 pt-1">Sin spam. Solo te avisamos cuando abramos la beta.</p>
-          </form>
+          <a href="https://apps.apple.com/app/id6785338448" data-i18n="cta_join"
+             class="block w-full text-center rounded-xl bg-lav-200 hover:bg-lav-100 transition-colors px-6 py-3.5 text-base font-semibold text-lav-900 shadow-lg shadow-lav-400/20">
+            Descargar en la App Store
+          </a>
         </div>
       </section>
     </main>
@@ -250,7 +225,7 @@
           <a class="hover:text-ink transition-colors" href="terminos.html" data-i18n="footer_terms">Términos</a>
           <a class="hover:text-ink transition-colors" href="soporte.html" data-i18n="footer_support">Soporte</a>
         </nav>
-        <p data-i18n="footer_status" class="text-xs text-inkmuted/70">App en desarrollo · © 2026 Bleary</p>
+        <p data-i18n="footer_status" class="text-xs text-inkmuted/70">Disponible en la App Store · © 2026 Bleary</p>
       </div>
     </footer>
 
@@ -266,11 +241,11 @@
       es: {
         _title: "Bleary — El cuaderno clínico para tus migrañas",
         _desc: "Lleva el historial de tus migrañas y descubre cómo te afecta la presión barométrica.",
-        nav_cta: "Lista de espera →",
-        hero_badge: "App en desarrollo · iPhone",
+        nav_cta: "Descargar →",
+        hero_badge: "Ya en la App Store · iPhone",
         hero_title: "El cuaderno clínico que usarías con los ojos entrecerrados.",
         hero_sub: "Lleva el historial completo de tus migrañas y descubre cómo te afecta la presión barométrica. Tu cuaderno clínico, siempre contigo.",
-        cta_join: "Unirme a la lista de espera",
+        cta_join: "Descargar en la App Store",
         cta_how: "Ver cómo funciona",
         strip_title: "Tu mes, de un vistazo",
         strip_sub: "Cada día se colorea según la intensidad.",
@@ -281,23 +256,20 @@
         f2_desc: "Captura la presión atmosférica al instante y la cruza con tus episodios para enseñarte el patrón.",
         f3_title: "Respirador de crisis",
         f3_desc: "Alivio guiado mientras pasa lo peor, sin salir de la app y sin luces que molesten.",
-        wl_title: "Entra a la beta",
-        wl_desc: 'Plazas limitadas. Los beta testers reciben <span class="text-lav-200 font-medium">2 meses gratis</span> de la versión Pro.',
-        lbl_name: "Nombre", lbl_email: "Email",
-        ph_name: "Tu nombre", ph_email: "tu@email.com",
-        wl_note: "Sin spam. Solo te avisamos cuando abramos la beta.",
+        dl_title: "Pruébala gratis",
+        dl_desc: "7 días gratis para empezar. Tus datos se quedan en tu iPhone y en tu iCloud.",
         footer_made: '<span class="font-display text-ink">Bleary</span> · hecho con cuidado para días difíciles.',
-        footer_status: "App en desarrollo · © 2026 Bleary",
+        footer_status: "Disponible en la App Store · © 2026 Bleary",
         footer_privacy: "Privacidad", footer_terms: "Términos", footer_support: "Soporte",
       },
       en: {
         _title: "Bleary — The clinical notebook for your migraines",
         _desc: "Keep the full history of your migraines and discover how barometric pressure affects you.",
-        nav_cta: "Waitlist →",
-        hero_badge: "In development · iPhone",
+        nav_cta: "Download →",
+        hero_badge: "Now on the App Store · iPhone",
         hero_title: "The clinical notebook you'd use with your eyes half shut.",
         hero_sub: "Keep the full history of your migraines and discover how barometric pressure affects you. Your clinical notebook, always with you.",
-        cta_join: "Join the waitlist",
+        cta_join: "Download on the App Store",
         cta_how: "See how it works",
         strip_title: "Your month, at a glance",
         strip_sub: "Each day is colored by intensity.",
@@ -308,13 +280,10 @@
         f2_desc: "Captures atmospheric pressure instantly and cross-references it with your episodes to reveal the pattern.",
         f3_title: "Crisis breather",
         f3_desc: "Guided relief while the worst passes, without leaving the app and without harsh lights.",
-        wl_title: "Join the beta",
-        wl_desc: 'Limited spots. Beta testers get <span class="text-lav-200 font-medium">2 months free</span> of the Pro version.',
-        lbl_name: "Name", lbl_email: "Email",
-        ph_name: "Your name", ph_email: "you@email.com",
-        wl_note: "No spam. We'll only email you when the beta opens.",
+        dl_title: "Try it free",
+        dl_desc: "7 days free to start. Your data stays on your iPhone and in your iCloud.",
         footer_made: '<span class="font-display text-ink">Bleary</span> · made with care for hard days.',
-        footer_status: "In development · © 2026 Bleary",
+        footer_status: "Available on the App Store · © 2026 Bleary",
         footer_privacy: "Privacy", footer_terms: "Terms", footer_support: "Support",
       },
     };
